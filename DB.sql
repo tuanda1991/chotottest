@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS DoAnhTuan20091991;
+
+create table chotot_img (
+	id INT  NOT NULL AUTO_INCREMENT,
+	alt VARCHAR(255) NOT NULL,
+	link VARCHAR(255) NOT NULL,
+	rank int NOT NULL,
+	PRIMARY KEY(id)        
+)
+ ENGINE = InnoDB
+ DEFAULT CHARACTER SET = utf8
+ COLLATE = utf8_unicode_ci;
